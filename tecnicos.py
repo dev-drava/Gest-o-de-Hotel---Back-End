@@ -10,5 +10,5 @@ class TecnicoManutencao(Funcionario):
 
 class TecnicoRecepcao(TecnicoManutencao, Recepcionista):
     def __init__(self, nome, idade, salario, especialidade, setor):
-        TecnicoManutencao.__init__(self, nome, idade, salario, especialidade,setor)
+        TecnicoManutencao.__init__(self, nome, idade, salario, especialidade)
         self.setor = setor
