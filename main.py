@@ -1,6 +1,6 @@
 from pessoa import Pessoa
 from quartos import Quarto, QuartoSimples, QuartoLuxo
-from hospede import Hospede
+from hospedes import Hospede
 from reserva import Reserva
 from funcionarios import Gerente, Recepcionista
 from tecnicos import TecnicoManutencao, TecnicoRecepcao

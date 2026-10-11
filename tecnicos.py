@@ -1,4 +1,4 @@
-from Funcionario import Funcionario, Recepcionista
+from funcionarios import Funcionario, Recepcionista
 
 class TecnicoManutencao(Funcionario):
     def __init__(self, nome, idade, salario, especialidade):
