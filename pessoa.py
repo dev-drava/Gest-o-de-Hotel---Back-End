@@ -33,3 +33,4 @@ try:
     Pessoa("Ana", 20)
 except TypeError:
     print("Certo: Pessoa é abstrata")
+    
