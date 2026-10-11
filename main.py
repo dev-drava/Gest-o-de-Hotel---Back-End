@@ -12,7 +12,7 @@ except TypeError:
     print("Pessoa é abstrata.")
 
 try:
-    Quarto(999, "teste", 10)
+    Quarto(666, "teste", 10)
 except TypeError:
     print("Quarto é abstrato.")
 
