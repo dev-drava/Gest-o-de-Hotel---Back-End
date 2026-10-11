@@ -1,4 +1,4 @@
-class Quarto(ABC):
+class Quarto(git ):
     def __init__(self, numero, tipo, preco_diaria):
         self._numero = numero
         self._tipo = tipo
@@ -20,4 +20,3 @@ class Quarto(ABC):
     def mostrar_informacoes(self):
         pass
 
-class QuartoSimples(Quarto):

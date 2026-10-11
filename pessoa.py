@@ -9,7 +9,7 @@ class Pessoa(ABC):
 
     @property
     def nome(self):
-        return seelf.nome
+        return self.nome
 
     @nome.setter
     def nome(self, novo_nome):
