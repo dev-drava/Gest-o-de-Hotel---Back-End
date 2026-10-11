@@ -1,14 +1,14 @@
-from funcionarios import Funcionario, Recepcionista
+from Funcionario import Funcionario, Recepcionista
 
-class TecnicoManuntencao(Funcionario):
+class TecnicoManutencao(Funcionario):
     def __init__(self, nome, idade, salario, especialidade):
-        super():self.__init__(nome, idade, salario)
+        super().__init__(nome, idade, salario)
         self.especialidade = especialidade
 
     def reparar(self, quarto):
-        print(f"{self.nome}está a reparar o {quarto}")
+        print(f"{self.nome} está a reparar o {quarto}")
 
-class TecnicoRecepcao(TecnicoManuntencao, Recepcionista):
+class TecnicoRecepcao(TecnicoManutencao, Recepcionista):
     def __init__(self, nome, idade, salario, especialidade, setor):
-        TecnicoManuntencao.__init__(self, nome, idade, salario, setor, especialidade)
+        TecnicoManutencao.__init__(self, nome, idade, salario, especialidade,setor)
         self.setor = setor
